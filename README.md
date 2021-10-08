@@ -6,10 +6,9 @@ These are various Vagrant base boxes for ROS 1, made available for the community
 
 Available so far:
 
-| Box name                                     | Description                                                                                                            |
-|----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| bergiasolutions/ros-noetic-desktop-focal_x64 | Ubuntu 20.04 Focal amd64 Virtualbox image with ROS installed (ros-noetic-desktop-full), catkin, vcstool, cmake and gcc |
-|                                              |                                                                                                                        |
+| Box name                                                                                                                     | Description                                                                                                            |
+|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
+| [bergiasolutions/ros-noetic-desktop-focal_x64](https://app.vagrantup.com/bergiasolutions/boxes/ros-noetic-desktop-focal_x64) | Ubuntu 20.04 Focal amd64 Virtualbox image with ROS installed (ros-noetic-desktop-full), catkin, vcstool, cmake and gcc |
 	
 
 ## Licence 

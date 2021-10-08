@@ -13,7 +13,7 @@ Available so far:
 
 ## Licence 
 
-The code and scripts required to build the images are availalbe on GitHub under the MIT License.
+The code and scripts required to build the images are available on GitHub under the MIT License.
 
 ## Contact
 

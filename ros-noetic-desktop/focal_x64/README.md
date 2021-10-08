@@ -10,10 +10,12 @@ vagrant up
 ```
 ## Contributing
 
+The base box may be imported and used directly in a Vagrantfile for any of your projects. But if you want to build your own base box starting from this one, here are some tips.
+
 ### Building the image
 
 Use the ```build_box.sh``` script to build and package the image. 
-This will invoke ```“agrant up``` using a fresh ```ubuntu/focal64``` base box, install ROS, performs some preparations steps, and finally package the resulting VirtualBox VM in the ```./build/YYYYMMDD.hh.mm/``` folder. It will also generate a description file.
+This will invoke ```vagrant up``` using a fresh ```ubuntu/focal64``` base box, install ROS, performs some preparations steps, and finally package the resulting VirtualBox VM in the ```./build/YYYYMMDD.hh.mm/``` folder. It will also generate a description file.
 
 ### Publishing the image
 

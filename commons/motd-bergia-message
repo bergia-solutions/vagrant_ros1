@@ -1,3 +1,5 @@
+#!/bin/sh
+cat <<EOF
 
 This Vagrant Box is provided for free to the community by BERGIA Solutions.
   ____  _____ ____   ____ ___    _           
@@ -19,4 +21,4 @@ This Vagrant Box is provided for free to the community by BERGIA Solutions.
 	To report bugs, improvement suggestions, or to get involved :
 	https://github.com/bergia-solutions/vagrant_ros1
 
-
+EOF

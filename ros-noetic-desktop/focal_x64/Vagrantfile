@@ -1,0 +1,33 @@
+# -*- mode: ruby -*-
+
+Vagrant.configure("2") do |config|
+
+  # vagrant-env plugin
+  config.env.enable
+
+  config.vm.define ENV["BOX_NAME"] do |rosbox|
+    
+    rosbox.vm.provider :virtualbox do |vb|
+      vb.name = ENV["BOX_NAME"]
+      vb.memory = "1024"
+    end
+    rosbox.vm.box = "ubuntu/focal64"
+    rosbox.vm.box_version = ENV["UBUNTU_BASE_BOX_VERSION"]
+    
+    # install ROS
+    rosbox.vm.provision "shell", path: "install_ros.sh"
+
+    # remove unneede stuff / clean up
+    rosbox.vm.provision "shell", path: "make_lean.sh"
+    
+    # add MOTD 
+    config.vm.provision "file", source: "../../commons/motd-bergia-message",
+                        destination: "/tmp/motd-bergia-message"
+
+    rosbox.vm.provision "shell", inline: "cp /tmp/motd-bergia-message /etc/update-motd.d/01-motd-bergia-message && chmod +x /etc/update-motd.d/01-motd-bergia-message && systemctl restart motd-news.service"
+
+    # restore insecure vagrant key for initial SSH when provisioning
+    rosbox.vm.provision "shell", path: "restore_vagrant_insecure_pubkey.sh"
+       
+  end
+end

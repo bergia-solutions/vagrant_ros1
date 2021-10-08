@@ -18,11 +18,11 @@ The code and scripts required to build the images are availalbe on GitHub under 
 
 ## Contact
 
-[https://bergia-solutions.com](https://bergia-solutions.com){:target="_blank"}
+[https://bergia-solutions.com](https://bergia-solutions.com)
 
 Contact: Bertrand Caré <contact@bergia-solutions.com>
 
-Vagrantup : [https://app.vagrantup.com/bergiasolutions](https://app.vagrantup.com/bergiasolutions){:target="_blank"}
+Vagrantup : [https://app.vagrantup.com/bergiasolutions]
 
 Please tell us if you encounter any bug or want to suggest improvements.
 

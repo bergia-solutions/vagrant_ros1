@@ -1,0 +1,11 @@
+ROS melodic Ubuntu 18.04 x64 Vagrant Base Box
+============================================
+
+This is a pre-package Ubuntu box (based on ubuntu/bionic64) with ros-melodic-desktop-full preinstalled, along with catkin, python3-vcstool, cmake and gcc, in a VirtualBox VM.
+
+Feel free to report bugs, issues or improvement suggestions here : https://github.com/bergia-solutions/vagrant_ros1
+
+Email: contact@bergia-solutions.com
+
+BERGIA Solutions (https://bergia-solutions.com) is a consulting company specialized in R&D Software engineering for robotics and data science applications.
+

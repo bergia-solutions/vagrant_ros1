@@ -1,0 +1,6 @@
+This is a pre-package Ubuntu box (based on ubuntu/bionic64) with ros-melodic-desktop-full preinstalled, along with catkin, python3-vcstool, cmake and gcc, in a VirtualBox VM.
+
+Feel free to report bugs, suggestions : https://github.com/bergia-solutions/vagrant_ros1
+
+
+
